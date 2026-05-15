@@ -1,0 +1,122 @@
+ID   ATHAT7      repbase;    DNA;    PLN; 3500 BP.
+XX
+AC   .
+XX
+DT   01-FEB-2001 (Rel. 6.01, Created)
+DT   01-FEB-2001 (Rel. 6.01, Last updated, Version 2)
+XX
+DE   ATHAT7 is a hAT-like autonomous DNA transposon - a consensus
+DE   sequence.
+XX
+KW   hAT; DNA transposon; Transposable Element; ATHAT7; ATHATN7;
+KW   Autonomous DNA transposon; hAT superfamily.
+XX
+NM   ATHAT7.
+XX
+OS   Arabidopsis thaliana
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+OC   Camelineae; Arabidopsis.
+XX
+RN   [1]
+RP   1-3500
+RA   Kapitonov V.V. and Jurka J.;
+RT   "ATHAT7.";
+RL   Direct Submission to Repbase Update (JAN-2001).
+XX
+DR   [1] (Consensus)
+XX
+CC   ATHAT7 is a recently active autonomous HAT-like DNA transposon.
+CC   There are two copies of ATHAT7 present in the genome.
+CC   They are 97% identical with each other.
+CC   ATHAT7 has 14-bp terminal inverted repeats and encodes the
+CC   750-aa ATHAT7p transposase. ATHAT7 copies are flanked by 8-bp
+CC   target site duplication.
+CC   DNA transposon ATHATN7 is a non-autonomous derivative of
+CC   a transposon related closely to ATHAT7. The ATHAT7 and ATHATN7
+CC   consensus sequences share ~80% identical ~180-bp 5' and
+CC   3' termini, respectively.
+CC   CDS join(604..2827).
+XX
+FH   Key           Location/Qualifiers
+FT   CDS           604..2852
+FT                 /product="ATHAT7p"
+FT                 /translation="MASNETLPPNDFDDVELSGNDDDDVVQHTPTSGNKRK
+FT                 RKEKETGDEGDGGNSSKKKKTSSRSYVWDHFSRKKGNPNKCNCHYCGKELA
+FT                 CPSKSGTSTLKKHLELSCKAFKAWKSTNTDQTQTVIGRDGGDGSLTMYKVS
+FT                 ELVIREASIEMLILGELPLSFIESVAWRHFCSKAKSYKPVSRRTTTREIVM
+FT                 LYVKKKVAMKKILGKSQERMSLTTDIWVSNNTGESYMVITAHFVDVDWKLK
+FT                 KMIIGFKHVTDHNCGTICKVLLECLAEWDIRRIFCITVDNATANNTALTKF
+FT                 KKTMKLIGDDALVLKGEYMHMRCDAHILNLVVKEGLTEVDASVTSIRNGIQ
+FT                 FVRSSTNRLKSFDLRCDAGTISRGSFPLDVKTRWNSTYLMLEQAVKFRIAF
+FT                 EKMEAEDKLYNDYYLEKVDGEKKIGPPMSSDWDAAERLIQILAIFYKSTLV
+FT                 LSGSTYVTSHKMYNEIINMARNLTTLNTDTFFDEQLKKKAIAMLGKLKKYW
+FT                 DPFGEGVEMNRLVMVATVFDPRKKMKFVELCFGKMYGLGSVEVVLLSDSVI
+FT                 QILKDLYDEYSRANLLRINGGSDSMPSSQSQGSWSQSQEQDRSGAYERTIN
+FT                 KTGIQLEDMENLFDEIVKETCIHKSSNELDLYLNEAVETPHLLMGIESDVL
+FT                 DWWKLNSGKFLVLSLIAKDIFAMQVSSVASESAFSTSGRVLDPFRSCLTHY
+FT                 MIEVLMCTEQWLKSEISINEKGLSTIHELLADQVDEDELMRGNLFPLNSL"
+XX
+SQ   Sequence 3500 BP; 1035 A; 591 C; 760 G; 1114 T; 0 other;
+     taggcctggg cataataacc ggacccgata cccaaaccga tacccaaact gaaaaagctg        60
+     ggttggggcg ggttagggta aaaggatatt acctcattgg gtttggtttt ggttaacccg       120
+     tgggttcggg ttcgggtagg gtattactca ttacccattc cgggtaccca tacacccgat       180
+     tcttgtgctt atatagatat ccctatatat catatataac ctatacacct atacaccact       240
+     acttactttt tgtcgattca gttttcttca cgaatccctt gaatatcggc ttctcttgtt       300
+     aaattctctt tgaaccatat tctatcaaac tggaaaccct tgtcgaaaca ctctcggcga       360
+     cctcaccgtc accgacgatc ctgttaaacc caccacagac agctcaatcg cgaaatcatt       420
+     ctaaggtaag tacgttcatg caatttcaat tctaggtttc gattattgat ctcaatctct       480
+     gattagtttc aaactttcaa gtttcaattc tcgatttctc agttcctagt ttcgattgtt       540
+     gtttgcttgt ttcaattcaa ttctcgattt ctcagttcct agctccgatt gttgtttatg       600
+     tagatggcgt caaatgaaac tctacctcca aatgattttg atgatgttga attaagtgga       660
+     aatgacgatg atgatgttgt tcaacatact cctacttctg gaaataagag gaagcgtaaa       720
+     gagaaggaaa caggagatga aggtgatgga ggtaatagtt caaagaaaaa gaagacaagt       780
+     agtcgatcct atgtttggga tcacttcagt agaaagaaag gtaatccaaa caagtgcaat       840
+     tgtcattact gtgggaaaga gttggcttgt ccttccaagt ctggcacctc tactttgaaa       900
+     aaacatttag aattgtcctg caaagcattc aaggcatgga aaagtactaa tacagaccaa       960
+     actcaaactg ttattggtcg tgatggtggt gatggtagtc ttaccatgta caaggtctct      1020
+     gaattagtca ttagagaagc ttctattgag atgctgattt taggcgaatt accattatct      1080
+     ttcatagaga gtgtggcttg gagacatttc tgttctaaag ctaaatcgta taagcctgtt      1140
+     tctcggagaa caactacaag agaaattgtg atgctttatg tcaagaagaa agtggctatg      1200
+     aagaagattc tagggaagag ccaggagagg atgtcactga ctacagacat ttgggtttca      1260
+     aacaatactg gagagagtta tatggtaata acagctcatt ttgttgatgt tgattggaag      1320
+     ttaaagaaga tgataatcgg attcaagcat gttactgatc ataattgtgg aactatttgc      1380
+     aaggttcttc tggaatgttt ggctgagtgg gatataagga gaatcttttg tatcacagtg      1440
+     gataatgcta cagctaacaa cactgcattg actaaattca agaaaacgat gaagctgatt      1500
+     ggggatgatg cattggtact gaaaggggaa tatatgcaca tgcggtgtga tgctcacatc      1560
+     ctgaatttag ttgtaaagga aggcttgact gaagtggatg caagtgtgac tagtattcgc      1620
+     aatgggattc agtttgtgag gtcttcaaca aatagactca aatcatttga tttgcgttgt      1680
+     gatgctggaa cgattagtag aggtagcttc cctttagatg tgaagacgag atggaactct      1740
+     acttatctca tgcttgaaca agctgtgaag tttaggattg cttttgagaa aatggaggct      1800
+     gaagataaac tatataatga ctattatctg gaaaaggtgg atggagaaaa aaagattgga      1860
+     ccgcctatgt caagtgattg ggatgcagct gagaggttaa ttcaaatcct tgctatattt      1920
+     tacaagtcga cattggtgct ttcaggttca acttatgtta cttctcataa gatgtacaat      1980
+     gagataatca acatggctag aaacctaact accttaaaca cagacacttt ttttgatgag      2040
+     caactaaaga agaaagcgat agcaatgtta ggaaagctga agaaatattg ggatccgttt      2100
+     ggtgaaggag tagaaatgaa taggttggtg atggttgcta ctgtttttga ccctagaaag      2160
+     aagatgaaat ttgttgagct ttgctttgga aagatgtatg gtttaggtag tgtggaggtt      2220
+     gttcttcttt ctgattcagt gattcaaatc ttgaaggatt tgtatgatga gtatagcagg      2280
+     gcaaatttgt tgagaataaa tggaggcagc gattcaatgc catcttctca gtcacaagga      2340
+     tcatggtctc agtctcaaga gcaagataga agtggagctt atgagagaac aatcaacaaa      2400
+     actggtattc aattagaaga tatggagaac ttatttgatg agattgtgaa agaaacatgt      2460
+     attcataaat catctaatga gttggatttg tatttgaatg aggctgtcga gactccacat      2520
+     cttctaatgg gaatagaatc tgatgtgtta gattggtgga agctcaatag tgggaagttt      2580
+     ctagttctgt cgctaatagc taaggatata tttgctatgc aagtatcgtc ggtggcatca      2640
+     gaatctgcat ttagcactag tggtagagtg ttagatccat ttagaagctg cttaacacat      2700
+     tacatgatag aagtcttgat gtgcacagag caatggttaa agtctgagat cagtatcaat      2760
+     gaaaaaggat tgtcaaccat tcatgaattg cttgcagatc aagtggacga agatgagctt      2820
+     atgagaggta atctattccc tttaaactct ctttaaattc tggtttacca attatagctt      2880
+     acaagtttgc ttatagtccg tgtttcttaa attgttcatg tgatgtagag tttaaacctg      2940
+     aattccacat ccatggtttt gagtaggccg agttatcgtt tcagccttca ggagacaaaa      3000
+     atgcaaaaca aagtcatcac ctcatgtcct catcaactat cgtttaaact ttaaacttct      3060
+     acttctatgt ttttcatttt cggattgttg ttttgctttt caattactct tgtttgagat      3120
+     ttgagaacgt tctatttgtc atatttgtgt tcttgtttgt ggtttgccaa ttaggcttgg      3180
+     atttggatgc tagttttgtt gctttttcat tctgtttttt tttctcctca tttgttacac      3240
+     atgattagaa tatcggtttt tcgggtttat gggtaacttt tacccaataa tacccgaacc      3300
+     gaaggaaacc cgtttttttc cgggtattta ccggttctta tattgattac ccaaaccgac      3360
+     ccgaacccgg gtgtacccga accggaccaa acccaaaaat ttcagtttac cctattgggt      3420
+     aataatttca ttacccattc aacccgaacc cgaacgggtt ctacccgaac ccgaacggat      3480
+     tacccatatg cccaggccta                                                  3500
+//
+
