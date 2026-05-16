@@ -4,24 +4,24 @@ NOMF=$1
 PATHDB=$(dirname $(find blastdb_* -name "et_bdclean.fasta" -print -quit))
 
 #limitation: si >1 blastdb, ne trouve pas la bonne (que la 1ere dans find; solution eventuelle: specifier quelle bd comme argument $2)
-#
+
 #I: BLAST - sequencce traitement de sequence de ref vs et_bdclean
 
-#0: creer dossier resutats et aller dans blastdb
+#0: creer dossier resutats et aller dans blastdb (ou dossier ou se trouve la bd generee par mkblastdb)
 mkdir blasts/${NOMF}
 mv ${NOMF,,}.fasta "$PATHDB"
 cd "$PATHDB"
 
-#1: obtenir numeros accession de fam
+#1 - Accnum - obtenir numeros accession de fam
 awk '/^>/ && $0 ~ NOMF {print $1}' NOMF="${NOMF^^}" et_bdclean.fasta | sed 's/>//' > ${NOMF}_accnum.txt
 
-#2: fichier fasta avec les sequences des copies uniquement de fam
+#2: Copylist - fichier fasta avec les sequences des copies uniquement de fam
 blastdbcmd -db et_bdclean.fasta -entry_batch ${NOMF}_accnum.txt > ${NOMF}_copylist.fasta
 
-#3: creer bdd blast pour en faire des requetes
+#3: BD - creer bdd blast pour en faire des requetes
 makeblastdb -in ${NOMF}_copylist.fasta -parse_seqids -dbtype nucl
 
-#4: blast
+#4: BLAST
 blastn -db ${NOMF}_copylist.fasta  -query ${NOMF,,}.fasta -outfmt 6 > ${NOMF}_blastres.txt
 
 #II: TSV pour import psql
@@ -51,7 +51,8 @@ refheader=$(grep -m 1 "^>" ${NOMF,,}.fasta)
 refacc=$(echo "$refheader" | awk '{print $1}' | sed 's/>//')
 refseq=$(awk '/^>/ { found=1; next } found { printf "%s", $0 }' ${NOMF,,}.fasta | tr '[:lower:]' '[:upper:]')
 
-echo -e "${refacc}\t${NOMF}\tTRUE\t${refseq}" >> ../../sqldb/copiet.tsv
+#sortie majuscule pour eviter pb de lecture sql (familles en maj par defaut la-bas aussi)
+echo -e "${refacc}\t${NOMF^^}\tTRUE\t${refseq}" >> ../../sqldb/copiet.tsv
     
 #fin: reorganiser
 mv ${NOMF}*.* ../blasts/${NOMF}

@@ -21,3 +21,26 @@ INSERT INTO FamilleET (NomF,Superfam,Ordre,Classe) VALUES
 
 -- imp. apres copiet 
 \copy PositionCp(NumAcc, NumChr, DebutCp, FinCp, BrinCp) FROM 'positioncp.tsv' DELIMITER E'\t';
+
+
+\copy Gene(GenID, Nom, Description) FROM 'gene.tsv' DELIMITER E'\t';
+
+\copy PositionGn(GenID, NumChr, DebutGn, FinGn, BrinGn) FROM 'positiongn.tsv' DELIMITER E'\t';
+
+INSERT INTO Annotation (NumAcc, TypeTroncature, Parent, EstFonct, EstAutonome) VALUES
+-- TAG2
+    ('AT1TE76620','5-tronque',NULL,TRUE,FALSE),
+    ('AT5TE56560','interne',NULL,FALSE,FALSE),
+    ('AT1TE36605','interne',NULL,FALSE,FALSE),
+-- ATHAT7
+    ('AT2TE26315','complete',NULL,TRUE,TRUE),
+    ('AT3TE62570','complete',NULL,TRUE,TRUE),
+-- ATLINE 1_1
+    ('AT1TE70805','complete',NULL,TRUE,TRUE),
+    ('AT4TE50995','5-tronque',NULL,FALSE,FALSE),
+    ('AT1TE83175','3-tronque','AT4TE50995',FALSE,FALSE),
+-- ATLANTYS1
+    ('AT1TE53315','soloLTR',NULL,FALSE,FALSE),
+    ('AT2TE20435','complete',NULL,TRUE,TRUE),
+    ('AT5TE45115','5-tronque',NULL,FALSE,FALSE)
+;

@@ -3,8 +3,15 @@ GENFILE=$1
 
 tail -n +2 "$GENFILE" | while read line; do
     idgene=$(echo "$line" | awk '{print $2}')
-    nomg=$(echo "$line" | awk '{NR1}')
+    nomg=$(echo "$line" | awk '{print NR}')
     chr=$(echo "$line" | awk '{print $4}')
+    
+#if pour prendre exculsivement les genes chromosomiens
+    if ! echo "$chr" | grep -qE '^[0-9]+$'; then
+        continue
+    fi
+
+    
     debut=$(echo "$line" | awk '{print $5}')
     fin=$(echo "$line" | awk '{print $6}')
     orientation=$(echo "$line" | awk '{print $7}')

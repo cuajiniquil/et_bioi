@@ -1,6 +1,7 @@
 #!/bin/bash
 
-create db etat_psql
+createdb etat_egh
 
-psql -d etat_psql -f tables.sql
-psql -d etat_psql -f remplissage.sql
+psql -d etat_egh -f tables.sql
+psql -d etat_egh -f remplissage.sql
+psql -d etat_egh -f requetes.sql
