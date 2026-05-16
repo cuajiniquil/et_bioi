@@ -80,9 +80,9 @@ CREATE TABLE Annotation (
 );
 
 CREATE TABLE Gene (
-    GenID VARCHAR(20) PRIMARY KEY,    -- e.g. AT1G01010
-    Nom  VARCHAR(50) NOT NULL,
-    SeqGen TEXT                    -- nullable: unknown function is common
+    GenID VARCHAR(20) PRIMARY KEY,
+    Nom  VARCHAR(50), -- enlever not null car fichier pos ne contient pas des noms
+    Description TEXT
 );
 
 CREATE TABLE PositionCp (

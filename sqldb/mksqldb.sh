@@ -1,7 +1,6 @@
 #!/bin/bash
 
-create db et_bioinfo
-psql et_bioinfo
+create db etat_psql
 
-\i tables.sql
-\i remplissage.sql
+psql -d etat_psql -f tables.sql
+psql -d etat_psql -f remplissage.sql

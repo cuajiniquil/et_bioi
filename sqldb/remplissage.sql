@@ -14,10 +14,10 @@ INSERT INTO FamilleET (NomF,Superfam,Ordre,Classe) VALUES
     ('BRODYAGA1A','MuDR','TIR','I')
 ;
 
--- CopieET (NomF references FamilleET so FamilleET must already be filled)
+-- imperativement apres toutes les famillet se trouvent dedans
 \copy CopieET(NumAcc, NomF, EstRef, SeqET) FROM 'copiet.tsv' DELIMITER E'\t';
 
 -- faire visualisation des copies a annoter uniquement 
 
--- PositionCp (NumAcc references CopieET so must come after)
+-- imp. apres copiet 
 \copy PositionCp(NumAcc, NumChr, DebutCp, FinCp, BrinCp) FROM 'positioncp.tsv' DELIMITER E'\t';
