@@ -12,7 +12,7 @@ ON c.NumAcc = a.NumAcc WHERE c.NumAcc IN (
 -- ATLINE 1_1
     'AT1TE70805',
     'AT4TE50995',
-    'AT1TE83175',
+    'AT4TE50675',
 -- ATLANTYS1
     'AT1TE53315',
     'AT2TE20435',

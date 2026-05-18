@@ -62,7 +62,7 @@ INSERT INTO Annotation (NumAcc, TypeTroncature, Parent, EstFonct, EstAutonome) V
 -- ATLINE 1_1
     ('AT1TE70805','complete',NULL,TRUE,TRUE),
     ('AT4TE50995','5-tronque',NULL,FALSE,FALSE),
-    ('AT1TE83175','3-tronque','AT4TE50995',FALSE,FALSE),
+    ('AT4TE50675','3-tronque','AT4TE50995',FALSE,FALSE),
 -- ATLANTYS1
     ('AT1TE53315','soloLTR',NULL,FALSE,FALSE),
     ('AT2TE20435','complete',NULL,TRUE,TRUE),
