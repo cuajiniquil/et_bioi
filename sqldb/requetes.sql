@@ -19,8 +19,11 @@ ON c.NumAcc = a.NumAcc WHERE c.NumAcc IN (
     'AT5TE45115'
 );
 
+-- 0: bilan donnees
+SELECT 'Chromosome', COUNT(*) FROM Chromosome UNION ALL SELECT 'FamilleET', COUNT(*) FROM FamilleET UNION ALL SELECT 'CopieET', COUNT(*) FROM CopieET UNION ALL SELECT 'Gene', COUNT(*) FROM Gene UNION ALL SELECT 'Annotation', COUNT(*) FROM Annotation;
 
 
+-- 1: question biologique
 SELECT cpa.NumAcc, cpa.NomF, cpa.TypeTroncature,
        pg.GenID, pg.DebutGn, pg.FinGn, pg.BrinGn,
        pc.DebutCp, pc.FinCp, pc.BrinCp
@@ -35,3 +38,6 @@ WHERE
     -- brin - est l''inverse'
     (pg.BrinGn = '-' AND pc.FinCp >= pg.FinGn - 200
                      AND pc.DebutCp <= pg.FinGn + 1000);
+                     
+                  
+                     
