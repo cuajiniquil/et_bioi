@@ -51,7 +51,7 @@ refheader=$(grep -m 1 "^>" ${NOMF,,}.fasta)
 refacc=$(echo "$refheader" | awk '{print $1}' | sed 's/>//')
 refseq=$(awk '/^>/ { found=1; next } found { printf "%s", $0 }' ${NOMF,,}.fasta | tr '[:lower:]' '[:upper:]')
 
-#sortie majuscule pour eviter pb de lecture sql (familles en maj par defaut la-bas aussi)
+#sortie majuscule pour eviter les pb de lecture sql (familles en maj par defaut la-bas aussi)
 echo -e "${refacc}\t${NOMF^^}\tTRUE\t${refseq}" >> ../../sqldb/copiet.tsv
     
 #fin: reorganiser

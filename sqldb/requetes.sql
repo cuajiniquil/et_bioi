@@ -19,6 +19,8 @@ ON c.NumAcc = a.NumAcc WHERE c.NumAcc IN (
     'AT5TE45115'
 );
 
+
+
 SELECT cpa.NumAcc, cpa.NomF, cpa.TypeTroncature,
        pg.GenID, pg.DebutGn, pg.FinGn, pg.BrinGn,
        pc.DebutCp, pc.FinCp, pc.BrinCp
@@ -26,7 +28,7 @@ FROM copies_annot cpa
 JOIN PositionCp pc ON cpa.NumAcc = pc.NumAcc
 JOIN PositionGn pg ON pc.NumChr = pg.NumChr
 WHERE
-    -- + strand: promoter is DebutGn-2000 to DebutGn+200
+    -- brin + : promoteur va de -1000 a +200 pb (voir biblio) 
     (pg.BrinGn = '+' AND pc.DebutCp <= pg.DebutGn + 200
                      AND pc.FinCp >= pg.DebutGn - 1000)
     OR

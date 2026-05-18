@@ -1,0 +1,49 @@
+ID   ATLANTYS1_LTR repbase;    DNA;    PLN; 517 BP.
+XX
+AC   .
+XX
+DT   27-SEP-2000 (Rel. 5.08, Created)
+DT   27-SEP-2000 (Rel. 5.08, Last updated, Version 1)
+XX
+DE   ATLANTYS1_I is a long terminal repeat from the ATLANTYS1
+DE   endogenous retrovirus.
+XX
+KW   Gypsy; LTR Retrotransposon; Transposable Element;
+KW   ATLANTYS superfamily; ATLANTYS1_I; ATLANTYS1_LTR;
+KW   Gypsy-like endogenous retrovirus; RNase H; RT; gag; integrase.
+XX
+OS   Arabidopsis thaliana
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+OC   Camelineae; Arabidopsis.
+XX
+RN   [1]
+RP   1-517
+RA   Kapitonov V.V. and Jurka J.;
+RT   "ATLANTYS1_LTR.";
+RL   Direct Submission to Repbase Update (SEP-2000).
+XX
+DR   [1] (Consensus)
+XX
+CC   ATLANTYS1_LTR is a consensus sequence of a long terminal repeat
+CC   from the ATLANTYS1 endogenous retrovirus. An internal portion
+CC   of the retrovirus is deposited in Repbase Update as ATLANTYS1_I.
+CC   There are about 40 copies of ATLANTYS1_LTR in the genome, they
+CC   are 97% identical to the consensus sequence. There is only 3.5%
+CC   average divergence between ATLANTYS1_LTR copies which flank the
+CC   same
+CC   internal sequence.
+XX
+SQ   Sequence 517 BP; 160 A; 135 C; 107 G; 115 T; 0 other;
+     tgttggagct ggattcccct ccaggaatcc acctgcgaaa ataccaagcc agcccacaaa        60
+     agcccaccaa gcccaccaag tagaggacct acgcagctga cgagcccaca tacgcgaatg       120
+     ggtatttggg ccagataagc ccagtcacct gatgaaggga gataagcgaa taatgaccta       180
+     ggaactgatg aggagatatt cgcggagcgg acctgatatc tcggaactga cctgccgaat       240
+     atccaggagg atctccgcag atcccggacg gagctaccac gtgcgtagac ctatataagg       300
+     gagcaaggac gacttggaag agacattcaa tccagcttac attcacacac acacttttac       360
+     acttgtaatc tcctttcaca ttgtaaaagc tttgtcataa tcaatacaaa agtccattcg       420
+     ttcttagcaa tataactctc aaggtttcag tgaagatcta gccctccttt ctcataatct       480
+     taaatacaaa tctctagtgt ggatttcaga acccaca                                517
+//
+

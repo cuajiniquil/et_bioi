@@ -1,0 +1,114 @@
+ID   TAG2        repbase;    DNA;    PLN; 3094 BP.
+XX
+AC   AF120335;
+XX
+DT   10-NOV-2000 (Rel. 5.10, Created)
+DT   21-JUL-2005 (Rel. 10.08, Last updated, Version 2)
+XX
+DE   TAG2 is an autonomous DNA transposons from HAT superfamily.
+XX
+KW   hAT; DNA transposon; Transposable Element; 18-bp TIR;
+KW   8-bp target site duplications; Autonomous DNA transposon;
+KW   hAT superfamily; TAG2; transposase.
+XX
+NM   TAG2.
+XX
+OS   Arabidopsis thaliana
+OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+OC   Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+OC   Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+OC   Camelineae; Arabidopsis.
+XX
+RN   [1]
+RP   1-3094
+RA   Henk D.A., Warren F.R. and Innes W.R.;
+RT   "A new Ac-like transposon of Arabidopsis is associated with a
+RT   deletion of the RPS5 disease resistance gene.";
+RL   Genetics 151(4), 1581-1589 (1999).
+XX
+RN   [2]
+RP   1-3094
+RA   Henk D.A., Warren F.R. and Innes W.R.;
+RT   "TAG2.";
+RL   Direct Submission to Genbank (15-JAN-1999)Biology, Indiana
+RL   University, Jordan Hall 142, Bloomington, IN 47405, USA.
+XX
+DR   GenBank; AF120335; Positions     114    3207.
+XX
+CC   TAG2 is a HAT-like DNA transposon; it is flanked by 18-bp
+CC   terminal inverted repeats. Its copies are flanked by 8-bp
+CC   target site duplications generated upon transposition in the
+CC   genome. TAG2p transposase is encoded by 2 exons.
+XX
+FH   Key           Location/Qualifiers
+FT   CDS           join(717..2036,2203..2613)
+FT                 /product="TAG2p"
+FT                 /note="transposase"
+FT                 /translation="MNRHMRSCEKTPGSTPRISRKVDMMVFREMIAVALVQ
+FT                 HNLPYSFVEYERIREAFTYANPSIEFWSRNTAAFDVYKIYEREKIKLKEKL
+FT                 AIIPGRICLTTDLWRALTVESYICLTAHYVDVDGVLKTKILSFCAFPPPHS
+FT                 GVAIAMKLSELLKDWGIEKKVFTLTVDNASANDTMQSILKRKLQKDLVCSG
+FT                 EFFHVRCSAHILNLIVQDGLEVISGALEKIRETVKYVKGSETRENLFQNCM
+FT                 DTIGIQTEANLVLDVSTRWNSTYHMLSRAIQFKDVLRSLAEVDRGYKSFPS
+FT                 AVEWERAELICDLLKPFAEITKLISGSSYPTANVYFMQVWAIKCWLGDHDD
+FT                 SHDRVIREMVEDMTEKYDKYWEDFSDILAMAAVLDPRLKFSALEYCYNILN
+FT                 PLTSKENLTHVRDKMVQLFGAYKRTTCNVAASTSQSSRKDIPFGYDGFYSY
+FT                 FSQRNGTGKSPLDMYLEEPVLDMVSFRDMDVIAYWKNNVSRFKELSSMACD
+FT                 ILSIPITTVASESAFSIGSRVLNKYRSCLLPTNVQALLCTRNWFRGFQEVG
+FT                 NIHILNSFIIVNLYGFWTAAFRLIARFFLL"
+XX
+SQ   Sequence 3094 BP; 898 A; 522 C; 651 G; 1023 T; 0 other;
+     tagaaccgtc aattgggcat ctgaccatgg gctaagccca gtccacaaca ttatggacag        60
+     tccatggtcg gcccgtaaag aaaacgggtt aaatggtcta aagaccaatt atgtccacgg       120
+     gtttaatggg ctagcccaca cggtctatgg ttggcccatc aagtttctcg acacatcaat       180
+     tttcttctct tctctctccc tcggcgacga agctccctct ctctctttct cgcttcgacc       240
+     tctctctcaa ctcctactcc ggttagttct actagaatat gaatccgttg attagaataa       300
+     gttctctaag tccttatgca atttcatcgc tttgttcttt tctattcctt aattgtgatt       360
+     ctgcatatgc tttctttgat ttcagcttgt gggtttgtcc aaatttcact tgtttgctat       420
+     tctttgttat tctctctctc ccttcctttg atgccaacca tgtgtttgat ggaatgcctc       480
+     acagaatatg tagagttttg ttttggtaga gcttgtaatt acttgtgtaa agcttggtgt       540
+     ttatgtatgg agctaagtgt atgaacgttt agtgtgtgtt tgctaatgtt aatgaacgtt       600
+     tagagcttgt aattaagtaa tcgtttctca ccacaatcca tcacttgttt gaccaaacgt       660
+     gcaaatattg tgagcagact tatcacttga atctgagacg aaatggtact aataccatga       720
+     atcgtcatat gagatcttgt gaaaagactc ctggaagtac acctagaatt agcagaaagg       780
+     tggatatgat ggtctttaga gaaatgattg cagtggcttt agttcaacat aatcttccat       840
+     attcgtttgt cgaatatgaa agaattagag aagcctttac atatgctaac ccttctatag       900
+     aattttggag cagaaatact gcagcttttg atgtctacaa gatttatgaa agagagaaaa       960
+     ttaagcttaa ggaaaagtta gctataatcc cgggtagaat atgcttaaca acagatttgt      1020
+     ggagagcttt aactgttgaa agttatattt gcttaacagc tcattatgta gatgttgatg      1080
+     gtgttctgaa aacgaagatc ttatctttct gtgctttccc gcctccacat tctggagtag      1140
+     ctatagcaat gaagcttagt gagctgttga aagattgggg aattgagaag aaagttttta      1200
+     ctttaactgt ggataatgct tctgcaaatg atactatgca aagcatttta aagagaaagc      1260
+     tacaaaaaga tcttgtctgc agcggagaat tctttcatgt gagatgttca gcacatatcc      1320
+     taaacttgat agttcaagat ggtttggaag tgatatctgg agctttggag aaaattagag      1380
+     agactgtgaa gtatgtgaaa ggatctgaga ctcgagaaaa tttatttcag aactgtatgg      1440
+     atacaattgg aattcaaaca gaggcaaatt tagttttaga tgtctcaacc cgctggaact      1500
+     ccacttatca tatgctctca cgagcaattc agtttaagga tgtattgcgt agtcttgcag      1560
+     aagtagatag gggttataag agtttcccat ctgctgtgga gtgggaaaga gcagaactga      1620
+     tatgtgacct tttgaaacca tttgctgaga ttacaaagct gatttcgggt tcgtcttatc      1680
+     cgacagcaaa cgtgtatttt atgcaagtat gggcgattaa atgttggctg ggagatcatg      1740
+     atgattctca tgatagggtt attcgtgaaa tggtggaaga tatgacggag aaatatgata      1800
+     aatattggga agatttcagc gacattcttg cgatggctgc agttcttgat ccaagattga      1860
+     aattctcagc tttagaatat tgttataata ttctgaatcc attgaccagt aaggaaaact      1920
+     tgactcatgt gcgtgataag atggttcaac tatttggagc ttataaaaga accacatgca      1980
+     acgttgcagc aagcacttct caatcttcac gaaaggatat cccatttgga tatgatgtaa      2040
+     gttgctaatt ttgtgtgttt acagtattgt tcttgtatgt ttgtttgttg tgatagttag      2100
+     tggctatgaa aatgcattct tatacttagt gagaatgggt tgtctgttgt gattgttgaa      2160
+     ctatacggtt ggtcatattt tcttttgttg gtcatatttc aggggtttta ctcttacttt      2220
+     tctcaaagaa atggaactgg aaaatcacca ttagatatgt acttggaaga gcctgtgtta      2280
+     gatatggtct cttttagaga tatggatgtt attgcatatt ggaaaaacaa tgtctcgcgt      2340
+     tttaaagaat tgtcatcgat ggcatgtgat atcttaagca ttccgatcac taccgtggca      2400
+     tcggaatcag cttttagtat aggtagtcgt gtgcttaaca aatatagaag ctgcctttta      2460
+     cctactaatg tgcaagccct cctatgtact agaaactggt ttcgtggatt tcaagaagtt      2520
+     ggtaatattc acatcttgaa ctcgtttata atagtaaact tatatggctt ttggactgca      2580
+     gcttttagat taatagctcg gtttttctta ttgtagaaac tgatgagatc caaggtcaag      2640
+     aggacacaaa caccatcctt gcatgaaagt ttcaagactg ggaagaaaca ggtacatggc      2700
+     tgttctctta aactctgagc ctatggttat gtgtttatta ttctcagtct gtgacttaga      2760
+     agcttatgta atcgtttttt cttttctttg tttctcataa acaaaggttt ttgcttaaga      2820
+     aacaaggaaa aatagaacca tgtaagacac aaacaaagct ccaaacagta acgcagagac      2880
+     gaaatgcaag ttgtgccacg tcaaaataaa cttctttaag tgtagttgaa aaatcatggg      2940
+     ctgaccatgg gctgaccatt ggacaatggt ccttaatggt cttggaaaaa ttttcagacc      3000
+     atgtccatta aagaccaacc ataaaaaccc atgaaagatg atggtccaag tggacatgac      3060
+     cattgggctt tggacagccc aattgacact tcta                                  3094
+//
+
