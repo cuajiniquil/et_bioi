@@ -23,6 +23,9 @@ et_bioi/
 │   |    └── ATET_full.fasta # séquences FASTA de tous les ET TAIR10
 |   └──blasts #dossiers base de donnees des familles etudiées
 |        ├──ATHAT7
+|        |    ├──athat7.fasta
+|        |    ├──ATHAT7_accnum.txt
+|        |    └──...
 |        ├──ATLANTYS1
 |        ├──ATLINE1_1
 |        └──TAG2
@@ -37,9 +40,7 @@ et_bioi/
 │   ├── tables.sql          # création des tables et types ENUM
 │   ├── remplissage.sql     # insertion des données
 │   └── requetes.sql        # requêtes biologiques + vue copies_annot
-├── workflow/
-│   ├── brodyaga1a.fasta    # famille de test pour famblast.sh
-│   └── ...
+|
 └── README.md
 ```
 
@@ -73,7 +74,7 @@ histtrnspsn("ATLANTYS1")  # fonctionne avec n'importe quelle famille de etls_tai
 
 #### Étape 1 — Initialiser la base de données BLAST globale
 
-À exécuter **une seule fois**, depuis le dossier ou se trouve le fichier contenant tous les ETs :
+À exécuter qu'une seule fois, depuis le dossier ou se trouve le fichier contenant tous les ETs :
 
 ```bash
 bash blast/mkblastdb.sh ATET_full.fasta
@@ -95,10 +96,10 @@ bash blast/famblast.sh NOMFAMILLE
 
 ```bash
 bash blast/famblast.sh BRODYAGA1A
-# fichier de référence attendu : workflow/brodyaga1a.fasta
+# fichier de référence attendu : blast/brodyaga1a.fasta
 ```
 
-> **Note :** pour les familles LTR (ex. ATLANTYS1), concaténer les fichiers  
+> Note :pour les familles LTR (ex. ATLANTYS1), concaténer les fichiers  
 > LTR et I avant de lancer `famblast.sh` :
 > ```bash
 > cat atlantys1_ltr.fasta <(tail -n +2 atlantys1_i.fasta) \
